@@ -11,18 +11,18 @@
         <a href="#" class="logo"><img src="style/logo.svg" alt="" class="mainLogo"></a>
         <nav>
             <ul class="list">
-                <li><a href="#" class="left">Home</a></li>
-                <li><a href="#" class="left">Contact</a></li>
-                <li><a href="#" class="left">About</a></li>
+                <li><a href="#homeId" class="left homeBtn" >Home</a></li>
+                <li><a href="#aboutId" class="left aboutBtn">About</a></li>
+                <li><a href="#contactId" class="left contactBtn">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="home block">
+        <div class="home block" id="homeId">
             <h1 class="welcometext">Hello, I'm <span class="name">Hashmi</span><br> a junior Frontend Developer</h1>
             <img src="style/1.svg" alt="page1" class="pageCounter1">
         </div>
-        <div class="about block">
+        <div class="about block" id="aboutId">
             <div class="container">
                 <div class="html">
                     <img src="style/about logos/html5-logo-svgrepo-com.svg" alt="html" class="htmll">
@@ -57,7 +57,7 @@
             </div>
             <img src="style/2.svg" alt="page2" class="pageCounter2">
         </div>
-        <div class="contact block">
+        <div class="contact block" id="contactId">
             <!-- <h1 class="ctme">Contact ME:</h1> -->
             
             <br />
@@ -68,5 +68,6 @@
             <img src="style/3.svg" alt="page3" class="pageCounter3">  
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
